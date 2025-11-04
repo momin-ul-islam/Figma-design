@@ -1,10 +1,10 @@
 /* common CSS Start */
-/* common CSS Emd */
 *{
     padding: 0;
     margin: 0;
     outline: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
 }
 a{
     text-decoration: none;
@@ -12,16 +12,56 @@ a{
 
 ul,li{
     list-style-type: none;
+    
 }
-
 
 .container{
     width: 1210px;
     margin: 0 auto;
 }
 
+/* common CSS Emd */
+
+
 #headerPart{
-        background:teal;
-        padding: 10px;
+        background:#F9F9FC;
+        
+        
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.menu ul li{
+    display: inline-block;
+    
+    
+}
+
+.menu ul li a{
+    padding: 24px;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.button a{
+    padding: 10px 20px;
+    background: #5E3BEE;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 14px;
+    
+
+}
+ .button i{
+    margin-left: 10px ;
+ }
